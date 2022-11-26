@@ -1,6 +1,6 @@
 # PanZaS
 
-![^-.-^](./style/panzas.svg)
+![^-.-^](https://raw.githubusercontent.com/basilean/panzas/main/style/panzas.svg?sanitaze=true)
 
 :joystick: **https://basile.ar/panzas/** :video_game:
 
