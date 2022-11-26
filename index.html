@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="author" content="Andres Basile"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta name="mobile-web-app-capable" content="yes"/>
+		<meta name="apple-mobile-web-app-capable" content="yes"/>
+		<meta name="referrer" content="no-referrer"/>
+		<title>PanZaS ^-.-^</title>
+		<link rel="stylesheet" href="style/panzas.css">
+		<script type="text/javascript" src="static/db.js"></script>
+		<script type="text/javascript" src="static/iagl.js"></script>
+		<script type="text/javascript" src="static/libretro.js"></script>
+		<script type="text/javascript" src="static/panzas.js"></script>
+		<script type="text/javascript">
+			var P = new Panzas()
+			window.onload = async function() {
+				P.load('IAGL', IAGL);
+				P.load('LibRetro', LibRetro);
+				P.init();
+			};
+		</script>
+	</head>
+	<body/>
+</html>

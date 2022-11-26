@@ -1,0 +1,158 @@
+/* https://fontlibrary.org/en/font/retro-edge */
+@font-face {
+  font-family: 'retro';
+  src: url('retro-edge.ttf')  format('truetype');
+}
+
+/* https://fontlibrary.org/en/font/generale-station */
+@font-face {
+  font-family: 'generale';
+  src: url('GeneraleStationGX.ttf')  format('truetype');
+}
+
+/* https://fontlibrary.org/en/font/bolshevik */
+@font-face {
+  font-family: 'bolshevik';
+  src: url('Bolshevik.otf')  format('opentype');
+}
+
+/* https://fontlibrary.org/en/font/exo-2 */
+@font-face {
+  font-family: 'exo2';
+  src: url('Exo2-Regular.otf')  format('opentype');
+}
+
+body {
+	font-family: exo2;
+	text-align: center;
+	margin: 0px;
+}
+
+h1 {
+	font-family: bolshevik;
+	margin: 0px;
+}
+
+summary {
+	display: inline list-item;
+}
+
+select {
+	width: 150px;
+	margin: 0px 6px 0px 0px;
+}
+
+pre {
+	white-space: pre-wrap;
+	text-align: left;
+	max-width: 600px;
+	margin: auto;
+	padding: 6px;
+}
+
+ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	min-height: 100px;
+	min-width: 300px;
+}
+
+li {
+	margin: 1px;
+}
+
+details[open] summary span {
+	background: #ddd;
+}
+
+details summary {
+	list-style-type: decimal-leading-zero;
+}
+
+details summary span {
+	color: #1a0dab;
+}
+
+details summary span:hover {
+	background-color: #eee;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.rom {
+	font-family: generale;
+}
+
+.roms, .tags, .genres {
+	padding: 6px;
+}
+
+.tag, .rom {
+	display: inline-block;
+	margin-right: 12px;
+	padding-left: 18px;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.tag p {
+	display: inline;
+	margin: 0px;
+	border-radius: 0px 0px 6px 6px;
+}
+
+.image {
+	display: inline-block;
+	font-family: retro;
+	padding: 6px;
+	background-color: black;
+	margin: 3px;
+	border-radius: 12px;
+}
+
+.image p {
+	margin: 0px;
+	text-align: center;
+	background-color: white;
+}
+
+.image img {
+	height: 180px;
+	border-radius: 6px 6px 0px 0px;
+}
+
+.loading {
+	background-image: url('panzas.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/* https://gitlab.gnome.org/GNOME/adwaita-icon-theme/-/tree/master/Adwaita/scalable */
+.rom {
+	background-image: url('media-floppy-symbolic.svg');
+}
+
+.year, .releaseyear {
+	background-image: url('x-office-calendar-symbolic.svg');
+}
+
+.studio, .developer, .publisher, .franchise {
+	background-image: url('application-x-executable-symbolic.svg');
+}
+
+.nplayers {
+	background-image: url('avatar-default-symbolic.svg');
+}
+
+.ESRB, .esrb_rating {
+	background-image: url('application-certificate-symbolic.svg');
+}
+
+.genre {
+	background-image: url('package-x-generic-symbolic.svg');
+}
+
+.region {
+	background-image: url('find-location-symbolic.svg');
+}

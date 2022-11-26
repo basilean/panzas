@@ -1,0 +1,15 @@
+<svg width="300" height="100" version="1.1" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+<g stroke="#000" fill="none">
+<path d="m47.847 8.2037 30.402 31.186h-11.254l-24.635-22.116-24.635 22.116h-11.254l30.402-31.186z" />
+<path d="m95.998 55.795h30.178v9.1823h-30.178z" fill="#ff0">
+<animate attributeName="fill-opacity" values="0;1;0" dur="1s" repeatCount="indefinite" />
+</path>
+<path d="m144.04 77.575h11.814v14.221h-11.814z" fill="#800000">
+<animate attributeName="fill-opacity" values="1;0;1;0;1" dur="1s" repeatCount="indefinite" />
+</path>
+<path d="m173.82 55.795h30.178v9.1823h-30.178z" fill="#ff0">
+<animate attributeName="fill-opacity" values="1;0;1" dur="1s" repeatCount="indefinite" />
+</path>
+<path d="m263.13 8.2037 30.402 31.186h-11.254l-24.635-22.116-24.635 22.116h-11.254l30.402-31.186z"/>
+</g>
+</svg>
