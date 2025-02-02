@@ -2,7 +2,7 @@ class IAGL extends DB {
 	constructor(
 		repo = "zach-morris/plugin.program.iagl",
 		path = "resources/data/dat_files",
-		rev = "main"
+		rev = "v3"
 	) {
 		super(repo, path, rev);
 	}
