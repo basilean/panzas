@@ -18,7 +18,8 @@ class DB {
 		const url = "https://api.github.com/repos/"
 			+ this._repo
 			+ "/contents/"
-			+ this._path;
+			+ this._path
+			+ "?ref=" + this._rev;
 		return fetch(url)
 			.then(response => response.json())
 			.then(json => {
